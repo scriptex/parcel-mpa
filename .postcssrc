@@ -1,0 +1,9 @@
+{
+	"plugins": {
+		"postcss-preset-env": {
+			"stage": 0
+		},
+		"autoprefixer": true,
+		"postcss-flexbugs-fixes": true
+	}
+}
