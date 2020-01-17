@@ -17,7 +17,7 @@
 		"parcel-bundler": "1.12.4",
 		"postcss-flexbugs-fixes": "4.1.0",
 		"postcss-preset-env": "6.7.0",
-		"sass": "1.24.5",
+		"sass": "1.25.0",
 		"typescript": "3.7.5"
 	}
 }
