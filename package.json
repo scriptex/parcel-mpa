@@ -12,7 +12,7 @@
 	"license": "MIT",
 	"private": false,
 	"devDependencies": {
-		"@babel/core": "7.13.15",
+		"@babel/core": "7.13.16",
 		"autoprefixer": "9.8.6",
 		"parcel-bundler": "1.12.5",
 		"postcss-flexbugs-fixes": "4.2.1",
