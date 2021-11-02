@@ -18,5 +18,5 @@ ehthumbs.db
 Thumbs.db
 
 # Dist
-.cache
+.parcel-cache
 dist

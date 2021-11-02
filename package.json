@@ -4,20 +4,38 @@
 	"description": "A starter template for web applications using Parcel as a module bundler.",
 	"scripts": {
 		"start": "parcel src/*.html",
-		"build": "parcel build src/*.html"
+		"build": "rm -rf dist && parcel build src/*.html",
+		"lint": "yarn lint:ts && yarn lint:scss",
+		"lint:ts": "eslint './src/scripts/**/*.ts'",
+		"lint:scss": "stylelint src/styles/**/*.scss"
 	},
-	"main": "src/index.html",
 	"repository": "https://github.com/scriptex/parcel-mpa",
 	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
 	"license": "MIT",
-	"private": false,
+	"dependencies": {},
 	"devDependencies": {
-		"@babel/core": "7.16.0",
-		"autoprefixer": "9.8.8",
-		"parcel-bundler": "1.12.5",
-		"postcss-flexbugs-fixes": "4.2.1",
+		"@parcel/transformer-sass": "2.0.0",
+		"@typescript-eslint/eslint-plugin": "5.3.0",
+		"@typescript-eslint/parser": "5.3.0",
+		"autoprefixer": "10.4.0",
+		"eslint": "8.1.0",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-config-recommended": "4.1.0",
+		"eslint-plugin-compat": "3.13.0",
+		"parcel": "2.0.0",
+		"postcss": "^8.3.11",
+		"postcss-flexbugs-fixes": "5.0.2",
 		"postcss-preset-env": "6.7.0",
 		"sass": "1.43.4",
+		"stylelint": "14.0.1",
+		"stylelint-config-recommended": "6.0.0",
+		"stylelint-config-standard-scss": "2.0.1",
+		"stylelint-no-unsupported-browser-features": "5.0.2",
+		"stylelint-scss": "4.0.0",
 		"typescript": "4.4.4"
-	}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	]
 }
