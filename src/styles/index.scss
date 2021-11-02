@@ -1,6 +1,8 @@
+@use 'sass:color';
+
 $font-size-base: 1rem;
 $color-black: #000;
-$color-base: lighten($color-black, 30%);
+$color-base: color.adjust($color-black, $lightness: 30%);
 
 body {
 	font-size: $font-size-base;

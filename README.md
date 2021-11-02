@@ -1,23 +1,6 @@
-:construction::construction:
-
 # Parcel MPA
 
 > A starter template for web applications using Parcel as a module bundler.
-
-## About
-
-This repository serves as a starter template for creating multiple page applications using Rollup as a module bundler.
-A module bundler is a JavaScript (in this case) module which bundles your JS/CSS modules in one file, optimizes their size, minifies them and does many more things.
-This starter template provides:
-- Latest EcmaScript/JavaScript support
-- SASS pre-processor for stylesheets
-- PostCSS post-processor for stylesheets
-- PNG sprites
-- SVG sprites (TODO)
-- PWA capabilities (TODO)
-- minification of the generated (CSS and JS) bundles
-- tree shaking
-- stylesheet assets managements (copy assets referenced in the imported stylesheets - fonts, images, etc.)
 
 ## Support this project
 
