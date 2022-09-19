@@ -9,9 +9,6 @@
 		"lint:ts": "eslint './src/scripts/**/*.ts'",
 		"lint:scss": "stylelint src/styles/**/*.scss"
 	},
-	"repository": "https://github.com/scriptex/parcel-mpa",
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
 		"@parcel/transformer-sass": "2.7.0",
