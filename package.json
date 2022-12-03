@@ -22,7 +22,7 @@
 		"postcss": "8.4.19",
 		"postcss-flexbugs-fixes": "5.0.2",
 		"sass": "1.56.1",
-		"stylelint": "14.15.0",
+		"stylelint": "14.16.0",
 		"stylelint-config-recommended": "9.0.0",
 		"stylelint-config-standard-scss": "6.1.0",
 		"stylelint-no-unsupported-browser-features": "6.0.1",
