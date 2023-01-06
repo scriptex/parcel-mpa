@@ -19,7 +19,7 @@
 		"eslint-config-recommended": "4.1.0",
 		"eslint-plugin-compat": "4.0.2",
 		"parcel": "2.8.2",
-		"postcss": "8.4.20",
+		"postcss": "8.4.21",
 		"postcss-flexbugs-fixes": "5.0.2",
 		"sass": "1.57.1",
 		"stylelint": "14.16.1",
