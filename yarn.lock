@@ -256,15 +256,15 @@
   resolved "https://registry.yarnpkg.com/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.2.tgz#28f643fbc0bec30b07fbe95b137879b6b4d1c9c5"
   integrity sha512-zrBczSbXKxEyK2ijtbRdICDygRqWSRPpZMN5dD1T8VMEW5RIhIbwFWw2phDRXuBQdVDpSjalCIUMWMV2h3JaZA==
 
-"@mdn/browser-compat-data@^3.3.14":
-  version "3.3.14"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.3.14.tgz#b72a37c654e598f9ae6f8335faaee182bebc6b28"
-  integrity sha512-n2RC9d6XatVbWFdHLimzzUJxJ1KY8LdjqrW6YvGPiRmsHkhOUx74/Ct10x5Yo7bC/Jvqx7cDEW8IMPv/+vwEzA==
-
 "@mdn/browser-compat-data@^5.2.34":
   version "5.2.34"
   resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.2.34.tgz#803b52e6fd7fc97215f76ccd469ba74924079cb2"
   integrity sha512-Z2YDZ+wTOo9q7ztKndznivTbPk+DOVDUcc8Gdq3nE00AErSZlt/aWNlE33lVfR/7FcP9Zz3uaSA2nBzOGGrh8A==
+
+"@mdn/browser-compat-data@^5.2.47":
+  version "5.2.48"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.2.48.tgz#3ca72d56ff98f78c79167264e0ee92ef3a0a98af"
+  integrity sha512-D5cAp2r0Eq9yN4lBNkVpHzoULHYeCQjLFF7PbD/LBBCuWXPIB4X3rbi12REvaCnEar/0UiSSfjIMWxFAw0vIJg==
 
 "@mischnic/json-sourcemap@^0.1.0":
   version "0.1.0"
@@ -907,6 +907,11 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
+"@tsconfig/node14@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node14/-/node14-1.0.3.tgz#e4386316284f00b98435bf40f72f75a09dabf6c1"
+  integrity sha512-ysT8mhdixWK6Hw3i1V2AeRqZ5WfXg1G43mqoYlM2nc6388Fq5jcXyr5mRsqViLx/GJYdoL0bfXD8nmF+Zn/Iow==
+
 "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
@@ -1168,12 +1173,12 @@ arrify@^2.0.1:
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
   integrity sha512-3duEwti880xqi4eAMN8AyR4a0ByT90zoYdLlevfrvU43vb0YZwZVfxOgxWrLXXXpyugL0hNZc9G6BiB5B3nUug==
 
-ast-metadata-inferer@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/ast-metadata-inferer/-/ast-metadata-inferer-0.7.0.tgz#c45d874cbdecabea26dc5de11fc6fa1919807c66"
-  integrity sha512-OkMLzd8xelb3gmnp6ToFvvsHLtS6CbagTkFQvQ+ZYFe3/AIl9iKikNR9G7pY3GfOR/2Xc222hwBjzI7HLkE76Q==
+ast-metadata-inferer@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/ast-metadata-inferer/-/ast-metadata-inferer-0.8.0.tgz#0f94c3425e310d8da45823ab2161142e3f134343"
+  integrity sha512-jOMKcHht9LxYIEQu+RVd22vtgrPaVCtDRQ/16IGmurdzxvYbDd5ynxjnyrzLnieG96eTcAyaoj/wN/4/1FyyeA==
   dependencies:
-    "@mdn/browser-compat-data" "^3.3.14"
+    "@mdn/browser-compat-data" "^5.2.34"
 
 astral-regex@^1.0.0:
   version "1.0.0"
@@ -1296,10 +1301,15 @@ caniuse-lite@^1.0.30001179, caniuse-lite@^1.0.30001400:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001406.tgz#d0146e7919635479f873b4507517b627f66ab269"
   integrity sha512-bWTlaXUy/rq0BBtYShc/jArYfBPjEV95euvZ8JVtO43oQExEN/WquoqpufFjNu4kSpi5cy5kMbNvzztWDfv1Jg==
 
-caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001450:
+caniuse-lite@^1.0.30001449:
   version "1.0.30001450"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001450.tgz#022225b91200589196b814b51b1bbe45144cf74f"
   integrity sha512-qMBmvmQmFXaSxexkjjfMvD5rnDL0+m+dUMZKoDYsGG8iZN29RuYh9eRoMvKsT6uMAWlyUUGDEQGJJYjzCIO9ew==
+
+caniuse-lite@^1.0.30001473:
+  version "1.0.30001474"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001474.tgz#13b6fe301a831fe666cce8ca4ef89352334133d5"
+  integrity sha512-iaIZ8gVrWfemh5DG3T9/YqarVZoYf0r188IjaGwx68j4Pf0SGY6CQkmJUIE+NZHkkecQGohzXmBGEwWDr9aM3Q==
 
 chalk@^2.0.0, chalk@^2.1.0:
   version "2.4.2"
@@ -1412,11 +1422,6 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
-
-core-js@^3.27.2:
-  version "3.27.2"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.27.2.tgz#85b35453a424abdcacb97474797815f4d62ebbf7"
-  integrity sha512-9ashVQskuh5AZEZ1JdQWp1GqSoC1e1G87MzRqg2gIfVAQ7Qn9K+uFj8EcniUFA4P2NLZfV+TOlX1SzoKfo+s7w==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -1834,16 +1839,16 @@ eslint-plugin-babel@^5.2.1:
   dependencies:
     eslint-rule-composer "^0.3.0"
 
-eslint-plugin-compat@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-4.1.1.tgz#353547a3ea7cd970107800ca5304af946c0e15aa"
-  integrity sha512-vUAaqKcDwXpVASyCAfKzkfaw3NxZ6FqeCNSGp7yqHpUMzkAiWRO0B6pR5zqh8RUhvybwXhPXvwVKDLr9GqGFUQ==
+eslint-plugin-compat@4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-4.1.4.tgz#0e925bb95b54dac5648cb2680276b85bf02f8658"
+  integrity sha512-RxySWBmzfIROLFKgeJBJue2BU/6vM2KJWXWAUq+oW4QtrsZXRxbjgxmO1OfF3sHcRuuIenTS/wgo3GyUWZF24w==
   dependencies:
-    "@mdn/browser-compat-data" "^5.2.34"
-    ast-metadata-inferer "^0.7.0"
+    "@mdn/browser-compat-data" "^5.2.47"
+    "@tsconfig/node14" "^1.0.3"
+    ast-metadata-inferer "^0.8.0"
     browserslist "^4.21.5"
-    caniuse-lite "^1.0.30001450"
-    core-js "^3.27.2"
+    caniuse-lite "^1.0.30001473"
     find-up "^5.0.0"
     lodash.memoize "4.1.2"
     semver "7.3.8"
