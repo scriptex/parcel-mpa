@@ -6,7 +6,7 @@
 		"start": "parcel src/*.html",
 		"build": "rm -rf dist && parcel build src/*.html",
 		"lint": "yarn lint:ts && yarn lint:scss",
-		"lint:ts": "eslint './src/scripts/**/*.ts'",
+		"lint:ts": "eslint",
 		"lint:scss": "stylelint src/styles/**/*.scss"
 	},
 	"dependencies": {},
