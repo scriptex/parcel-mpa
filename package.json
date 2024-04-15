@@ -6,7 +6,7 @@
 		"start": "parcel src/*.html",
 		"build": "rm -rf dist && parcel build src/*.html",
 		"lint": "yarn lint:ts && yarn lint:scss",
-		"lint:ts": "eslint './src/scripts/**/*.ts'",
+		"lint:ts": "eslint",
 		"lint:scss": "stylelint src/styles/**/*.scss"
 	},
 	"dependencies": {},
@@ -14,7 +14,7 @@
 		"@parcel/transformer-sass": "2.12.0",
 		"@typescript-eslint/eslint-plugin": "7.6.0",
 		"@typescript-eslint/parser": "7.6.0",
-		"eslint": "8.57.0",
+		"eslint": "9.0.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-config-recommended": "4.1.0",
 		"eslint-plugin-compat": "4.2.0",
