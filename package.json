@@ -27,7 +27,7 @@
 		"stylelint-config-standard-scss": "13.1.0",
 		"stylelint-no-unsupported-browser-features": "8.0.1",
 		"stylelint-scss": "6.3.2",
-		"typescript": "5.4.5"
+		"typescript": "5.5.2"
 	},
 	"browserslist": [
 		"> 1%",
