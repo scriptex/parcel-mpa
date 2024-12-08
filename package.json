@@ -21,7 +21,7 @@
 		"parcel": "2.13.2",
 		"postcss": "8.4.49",
 		"postcss-flexbugs-fixes": "5.0.2",
-		"sass": "1.81.0",
+		"sass": "1.81.1",
 		"stylelint": "16.10.0",
 		"stylelint-config-recommended": "14.0.1",
 		"stylelint-config-standard-scss": "13.1.0",
