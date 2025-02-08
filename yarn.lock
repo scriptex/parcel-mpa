@@ -4519,10 +4519,10 @@ stylelint-config-standard@^36.0.1:
   dependencies:
     stylelint-config-recommended "^14.0.1"
 
-stylelint-no-unsupported-browser-features@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/stylelint-no-unsupported-browser-features/-/stylelint-no-unsupported-browser-features-8.0.2.tgz#2d13c0515df986bd8eb16e2a3c05616b337a40dc"
-  integrity sha512-4PY2qJ3ZTEje9RgGfaQ82eJoPioXxs6hazeKpji/wzLNVzTX2wd4b0Ds3ewdLkH3ID+o63IInuTquU2MNJO3YQ==
+stylelint-no-unsupported-browser-features@8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/stylelint-no-unsupported-browser-features/-/stylelint-no-unsupported-browser-features-8.0.4.tgz#4212fab92cc827c1670ea42c15b2be8fd8c1c31a"
+  integrity sha512-MNdjegsgfTu1iDBsJM+1uBVZsIt0EWzqAX5qgUBAGavXkddwRqh+S1KD2VnWqUhiEuyddVrWJH8vKsNI40orxA==
   dependencies:
     doiuse "^6.0.5"
     postcss "^8.4.32"
