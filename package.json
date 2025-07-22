@@ -15,7 +15,7 @@
 		"@typescript-eslint/eslint-plugin": "8.36.0",
 		"@typescript-eslint/parser": "8.36.0",
 		"eslint": "9.30.1",
-		"eslint-config-prettier": "10.1.5",
+		"eslint-config-prettier": "10.1.8",
 		"eslint-config-recommended": "4.1.0",
 		"eslint-plugin-compat": "6.0.2",
 		"parcel": "2.15.4",
